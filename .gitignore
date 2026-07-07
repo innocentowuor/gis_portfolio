@@ -1,1 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
 
+# Credentials and secrets
+credentials.json
+*.key
+*.pem
+.env
+config_private.py
+
+# GIS data
+*.gdb/
+*.sde
+*.sd
+*.sddraft
+*.aprx
+*.aprx.backup
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qix
+*.zip
+
+# Outputs
+outputs/
+scratch/
+temp/
+*.xlsx
+*.xls
+*.pdf
+
+# System
+.DS_Store
+Thumbs.db
