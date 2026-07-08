@@ -19,11 +19,11 @@ with open(r"path to JSON file") as credentials_file:
     credentials = load(credentials_file)
 
 agol_username, agol_password = credentials["agol_username"], credentials["agol_password"]
-url = "https://governmentofbc.maps.arcgis.com/"
+url = "your arcgis online URL"
 
 # Paths Configuration
 class Paths:
-    data_folder = "Path to where geodatabase will be saved"   
+    data_folder = "Path to the directory where the geodatabase will be saved"   
     workgdb = f"{data_folder}\\back_ups.gdb"  # Target geodatabase
 
 # AGOL Layer URLs
