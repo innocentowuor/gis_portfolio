@@ -23,7 +23,8 @@ This portfolio highlights examples of my work in spatial ETL, ArcGIS automation,
 | Project | Focus | Tools |
 |---|---|---|
 | [AOI Spatial Screening Report](projects/01_aoi_screening_tool/) | Automated spatial overlay, summary reporting, and map export workflow | Python, ArcPy, ArcGIS Online, Excel |
-| [AGOL Feature Layer Backup Tool](projects/02_weekly_arconline_backups/) | Downloading and backing up ArcGIS Online feature layers into a local geodatabase | Python, ArcPy, ArcGIS API for Python || [Spatial Observation ETL Pipeline](projects/03_stewardship_baseline_observation_tool/) | Standardizing multiple field observation datasets into one analysis-ready schema | Python, ArcPy, pandas, ArcGIS Online |
+| [AGOL Feature Layer Backup Tool](projects/02_weekly_arconline_backups/) | Downloading and backing up ArcGIS Online feature layers into a local geodatabase | Python, ArcPy, ArcGIS API for Python |
+| [Spatial Observation ETL Pipeline](projects/03_stewardship_baseline_observation_tool/) | Standardizing multiple field observation datasets into one analysis-ready schema | Python, ArcPy, pandas, ArcGIS Online |
 | [Public Health Access Analysis](projects/04-public-health-access-analysis/) | Exploring spatial access to health-related services using public or synthetic data | Python, GeoPandas, QGIS/ArcGIS |
 | [Environmental Health Risk Mapping](projects/05-environmental-health-risk-mapping/) | Mapping environmental exposure, vulnerability, and community risk patterns | Python, GIS, public datasets |
 
