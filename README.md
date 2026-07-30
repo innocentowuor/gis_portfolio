@@ -22,7 +22,7 @@ This portfolio highlights examples of my work in spatial ETL, ArcGIS automation,
 
 | Project | Focus | Tools |
 |---|---|---|
-| [AOI Spatial Screening Report](projects/01_aoi_screening_tool/aoi_screening_tool.py) | Automated spatial overlay, summary reporting, and map export workflow | Python, ArcPy, ArcGIS Online, Excel |
+| [AOI Spatial Screening Report](projects/01_aoi_screening_tool/) | Automated spatial overlay, summary reporting, and map export workflow | Python, ArcPy, ArcGIS Online, Excel |
 | [AGOL Feature Layer Backup Tool](projects/02_weekly_arconline_backups/) | Downloading and backing up ArcGIS Online feature layers into a local geodatabase | Python, ArcPy, ArcGIS API for Python |
 | [Spatial Observation ETL Pipeline](projects/03_stewardship_baseline_observation_tool/) | Standardizing multiple field observation datasets into one analysis-ready schema | Python, ArcPy, pandas, ArcGIS Online |
 
