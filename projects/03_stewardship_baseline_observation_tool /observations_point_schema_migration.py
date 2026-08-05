@@ -1,5 +1,5 @@
 """
-Public portfolio example: wildlife observation schema migration and export.
+Mountain Goat observations schema migration and export.
 
 Purpose
 -------
