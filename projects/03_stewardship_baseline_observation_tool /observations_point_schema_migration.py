@@ -61,7 +61,8 @@ OUTPUT_GDB = WORKSPACE / "output.gdb"
 EXPORT_FOLDER = WORKSPACE / "submission_exports"
 TEMPLATE_FILE = WORKSPACE / "templates" / "wildlife_submission_template.xlsx"
 
-# Placeholder URLs intentionally do not point to real services.
+# Source services for winter, summer and incidental observations. URLs are do not point to actual datasets for privacy
+
 SOURCE_SERVICES = {
     "winter_survey": os.getenv(
         "WINTER_SURVEY_URL",
@@ -77,7 +78,8 @@ SOURCE_SERVICES = {
     ),
 }
 
-# These authorized layers are supplied by the person running the script.
+# These authorized polygon layers are supplied by the person running the script.
+
 REFERENCE_LAYERS = {
     "management_area": os.getenv("MANAGEMENT_AREA_LAYER", ""),
     "reporting_region": os.getenv("REPORTING_REGION_LAYER", ""),
@@ -87,8 +89,8 @@ REFERENCE_LAYERS = {
 TARGET_SPATIAL_REFERENCE = arcpy.SpatialReference(3005)
 TARGET_FEATURE_CLASS_NAME = "standardized_wildlife_observations"
 
-# The target is deliberately representative rather than a copy of the internal
-# production schema.
+# The target represents the schema winter, summer and incidental surveys will be transformed into
+
 TARGET_FIELDS = {
     "study_area": ("TEXT", 100),
     "survey_block": ("TEXT", 100),
@@ -117,8 +119,9 @@ TARGET_FIELDS = {
     "source_name": ("TEXT", 100),
 }
 
-# Synthetic source names show how differently structured legacy layers can be
+# Sources with synthetic names show how differently structured legacy layers can be
 # brought into one schema.
+
 SOURCE_FIELD_MAPPINGS = {
     "winter_survey": {
         "survey_date": "observation_date",
