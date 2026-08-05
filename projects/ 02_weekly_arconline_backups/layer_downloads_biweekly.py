@@ -1,7 +1,7 @@
-# ArcGIS Online Feature Layer Download Script (Simplified)
+# ArcGIS Online Feature Layer Download Script
 # Author: Innocent Owuor
 # Date: 27th March 2025
-# Updated: 
+# Updated: August 8th, 2026
 # Description:
 #   Downloads ArcGIS Feature layers into a flat structure in a geodatabase (back_ups.gdb)
 
