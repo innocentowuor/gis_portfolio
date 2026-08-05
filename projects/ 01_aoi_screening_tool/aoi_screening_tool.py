@@ -1,11 +1,11 @@
 """
-Environmental Screening Workflow — public portfolio example
+Area of Interest Screening Tool — public portfolio example
 ============================================================
 
 Purpose
 -------
-Process polygon submissions from an ArcGIS feature service, compare each area
-of interest (AOI) with reference datasets, and create an Excel screening report
+This workflow processes polygon submissions from an ArcGIS feature service, compares each area
+of interest (AOI) with reference datasets, and creates an Excel screening report
 with summary statistics and a map.
 
 Workflow
